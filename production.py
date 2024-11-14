@@ -45,7 +45,7 @@ class RoutingStep(metaclass=PoolMeta):
                         bom_quantity += Uom.compute_qty(
                             bom_output.unit, bom_output.quantity,
                             product.default_uom, round=False)
-                if bom_quantity: 
+                if bom_quantity:
                     factor = production.quantity / bom_quantity
                     work.planned_time = self.time * factor
         elif self.calculation == 'fixed':
