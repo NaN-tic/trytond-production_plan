@@ -1,0 +1,6 @@
+<data>
+    <xpath expr="//field[@name='cost']" position="after">
+        <label name="planned_operations_time"/>
+        <field name="planned_operations_time"/>
+    </xpath>
+</data>

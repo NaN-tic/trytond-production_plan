@@ -1,0 +1,5 @@
+<data>
+    <xpath expr="/tree" position="inside">
+        <field name="planned_time" optional="0"/>
+    </xpath>
+</data>

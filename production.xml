@@ -1,0 +1,41 @@
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="production_view_form">
+            <field name="model">production</field>
+            <field name="inherit" ref="production.production_view_form"/>
+            <field name="name">production_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="routing_step_view_list">
+            <field name="model">production.routing.step</field>
+            <field name="inherit" ref="production_routing.routing_step_view_list"/>
+            <field name="name">routing_step_list</field>
+        </record>
+        <record model="ir.ui.view" id="routing_step_view_list_sequence">
+            <field name="model">production.routing.step</field>
+            <field name="inherit" ref="production_routing.routing_step_view_list_sequence"/>
+            <field name="name">routing_step_list_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="routing_step_view_form">
+            <field name="model">production.routing.step</field>
+            <field name="inherit" ref="production_routing.routing_step_view_form"/>
+            <field name="name">routing_step_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="work_view_list">
+            <field name="model">production.work</field>
+            <field name="inherit" ref="production_work.work_view_list"/>
+            <field name="name">work_list</field>
+        </record>
+        <record model="ir.ui.view" id="work_view_list_sequence">
+            <field name="model">production.work</field>
+            <field name="inherit" ref="production_work.work_view_list_sequence"/>
+            <field name="name">work_list_sequence</field>
+        </record>
+        <record model="ir.ui.view" id="work_view_form">
+            <field name="model">production.work</field>
+            <field name="inherit" ref="production_work.work_view_form"/>
+            <field name="name">work_form</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,8 @@
+<data>
+    <xpath expr="/form" position="inside">
+        <label name="calculation"/>
+        <field name="calculation"/>
+        <label name="time"/>
+        <field name="time"/>
+    </xpath>
+</data>

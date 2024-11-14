@@ -1,0 +1,6 @@
+<data>
+    <xpath expr="/tree" position="inside">
+        <field name="calculation" optional="0"/>
+        <field name="time" optional="0"/>
+    </xpath>
+</data>
