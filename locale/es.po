@@ -1,0 +1,50 @@
+#
+# Albert Cervera i Areny <albert@nan-tic.com>, 2024.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Albert Cervera i Areny <albert@nan-tic.com>\n"
+"PO-Revision-Date: 2024-11-14 10:40+0100\n"
+"Project-Id-Version: \n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca_ES\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+msgctxt "field:production,planned_operations_time:"
+msgid "Planned Operations Time"
+msgstr "Tiempo planificado de operaciones"
+
+msgctxt "field:production.routing.step,calculation:"
+msgid "Calculation"
+msgstr "Cálculo"
+
+msgctxt "field:production.routing.step,time:"
+msgid "Time"
+msgstr "Tiempo"
+
+msgctxt "field:production.work,planned_time:"
+msgid "Planned Time"
+msgstr "Tiempo planificado"
+
+msgctxt "help:production.routing.step,calculation:"
+msgid ""
+"Use Standard to multiply the amount of time by the number of units produced."
+" Use Fixed to use the indicated time in the production without considering "
+"the quantities produced. The latter is useful for a setup or cleaning "
+"operation, for example."
+msgstr ""
+"Utilice Estándar para multiplicar la cantidad de tiempo por la cantidad de "
+"unidades producidas. Utilice Fijo para utilizar el tiempo indicado en la "
+"producción sin tener en cuenta las cantidades producidas. Este último es "
+"útil para una operación de preparación o limpieza, por ejemplo."
+
+msgctxt "selection:production.routing.step,calculation:"
+msgid "Fixed"
+msgstr "Fijado"
+
+msgctxt "selection:production.routing.step,calculation:"
+msgid "Standard"
+msgstr "Estándar"

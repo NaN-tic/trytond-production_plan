@@ -1,0 +1,51 @@
+#
+# Albert Cervera i Areny <albert@nan-tic.com>, 2024.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Albert Cervera i Areny <albert@nan-tic.com>\n"
+"PO-Revision-Date: 2024-11-14 10:41+0100\n"
+"Project-Id-Version: \n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca_ES\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+msgctxt "field:production,planned_operations_time:"
+msgid "Planned Operations Time"
+msgstr "Temps planificat en operacions"
+
+msgctxt "field:production.routing.step,calculation:"
+msgid "Calculation"
+msgstr "Càlcul"
+
+msgctxt "field:production.routing.step,time:"
+msgid "Time"
+msgstr "Temps"
+
+msgctxt "field:production.work,planned_time:"
+msgid "Planned Time"
+msgstr "Temps planificat"
+
+msgctxt "help:production.routing.step,calculation:"
+msgid ""
+"Use Standard to multiply the amount of time by the number of units produced."
+" Use Fixed to use the indicated time in the production without considering "
+"the quantities produced. The latter is useful for a setup or cleaning "
+"operation, for example."
+msgstr ""
+"Utilitzeu Standard per multiplicar la quantitat de temps pel nombre "
+"d'unitats produïdes. Utilitzeu Fix per utilitzar el temps indicat en la"
+" producció"
+" sense tenir en compte les quantitats produïdes. Aquest últim és útil per a "
+"una operació de configuració o neteja, per exemple."
+
+msgctxt "selection:production.routing.step,calculation:"
+msgid "Fixed"
+msgstr "Fix"
+
+msgctxt "selection:production.routing.step,calculation:"
+msgid "Standard"
+msgstr "Estàndard"
